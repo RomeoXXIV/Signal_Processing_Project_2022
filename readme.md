@@ -1,6 +1,8 @@
-# Speaker Classification
+# Real-time Sound Localisation
 
 This repository contains the code for the signal processing course project.
 
-## Introduction
-Machine learning consists of building systems based on data. These types of systems are very popular nowadays. The goal of this project is to give you an intuition of the advantages of machine learning-based systems. You are going to implement a rule-based system using signal processing techniques and compare it to machine learning techniques. The subject of this project is an application that classifies speakers, which means that it recognizes different speakers. Your application will base its classification on the voices of the speakers. Speaker classification is different from speech recognition whose goal is to recognize what is being said by a speaker.
+## Introduction of the project
+Real-time signal processing consists in building systems capable of per- forming a specific task in the given time. In many fields, these types of systems are very useful as they use feedback, meaning that they adapt them- selves to control the output.
+
+The goal of this project is to give you an intuition of the importance of online1 signal processing systems. You are going to implement a system that processes audio signals to estimate the position of a sound. At the end of this project you should be able to deploy your work on a Raspberry Pi equipped with an array of microphones to locate a sound position in real-time.
